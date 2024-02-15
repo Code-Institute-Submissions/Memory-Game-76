@@ -224,8 +224,3 @@ button {
 .card-after img {
   width: 64px;
 }
-
-canvas {
-  position: relative;
-  z-index: -1;
-}

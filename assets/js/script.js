@@ -7,7 +7,7 @@ const resultElement = document.getElementById("result");
 const controlsContainerElement = document.querySelector(".controls-container");
 const cardCountElement = document.querySelector("#total-count");
 const headingElement = document.querySelector(".heading");
-const descriptionElementClass = document.querySelector(".description");
+const descriptionElement = document.querySelector(".description");
 let cardElements;
 let intervalId;
 let firstCardElement = false;

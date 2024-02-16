@@ -91,7 +91,7 @@ body {
 }
 
 .card-after {
-  background-color: #ffffff;
+  background-color:#ffffff;
   transform: rotateY(180deg);
 }
 

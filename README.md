@@ -23,7 +23,7 @@ This is a fully responsive website that was designed with a mobile-first approac
 - As a first time user i want see Clear instructions on how to play the game.
   <img src="assets/images/1new.png">
 
-## Starts Button
+## Start Button
 
 - As a first-time user, I want to explore the "Start" button, which serves as a gateway to a dedicated section providing detailed functionality about the game.
 - As a first time User i also want to click on start button to start a new game as instructed in the decsription.

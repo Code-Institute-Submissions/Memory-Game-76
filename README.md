@@ -62,7 +62,7 @@ As soon as you enter the display page you can easily see instructions of the 'Me
 ## Lighthouse
 
 - Lighthouse is a feature of Google Chrome developer tools and is used to assess the performance of the website and its features. I achieved a high-performance score initially, as you can see below.
-  <img src="assets/images/seo.png">
+  <img src="assets/images/6new.png">
 
 ### Validator Testing
 

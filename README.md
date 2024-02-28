@@ -21,7 +21,7 @@ This is a fully responsive website that was designed with a mobile-first approac
 
 - As a first-time user,l want to find the interface thoughtfully designed for easy navigation.
 - As a first time user i want see Clear instructions on how to play the game.
-  <img src="assets/images/newpp2.png">
+  <img src="assets/images/1new.png">
 
 ## Stats Button
 

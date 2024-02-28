@@ -37,7 +37,7 @@ This is a fully responsive website that was designed with a mobile-first approac
 ## The Game Area
 
 - As a first-time user, you'll likely be drawn to the central element of the website—the game area. Here, you can engage with a grid of face-down cards, each holding a hidden content. To reveal the information on each card, simply click on them once while playing.
-  <img src="assets/images/new1.png">
+  <img src="assets/images/44new.png">
 
 ## Timer Display
 

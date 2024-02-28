@@ -42,7 +42,7 @@ This is a fully responsive website that was designed with a mobile-first approac
 ## Timer Display
 
 - As a participant engaging in the Memory game challenge for the first time, I desire a clear and conspicuous presentation of essential information during gameplay. Specifically, I would like real-time updates on the clock, the number of card matches achieved, and the total moves made. These crucial elements should be prominently displayed throughout the gaming experience, ensuring that I can effortlessly track my progress.
-  <img src="assets/images/rr.png">
+  <img src="assets/images/5new.png">
 
 ## Score Display
 

@@ -55,7 +55,7 @@ This is a fully responsive website that was designed with a mobile-first approac
 
 As a first time player, I want to easily find useful information & tips for the Memory Game website.
 As soon as you enter the display page you can easily see instructions of the 'Memory Game' how its played, upon clicking on the start game button,this will taken you to a section filled with cards with question marks that you can click on to flip the cards.
-<img src="assets/images/7new.png">
+<img src="assets/images/new7.png">
 
 - On smaller screens, please take note that the "Start Game" button is positioned within the instructions section for optimal user experience. The design is responsive, ensuring that the button relocates to the bottom of the screen on smaller devices. This adjustment is implemented to enhance accessibility and visibility, allowing users to easily locate and engage with the "Start Game" button without any inconvenience.
 

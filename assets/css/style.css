@@ -232,3 +232,6 @@ canvas {
 .stats-container {
   text-align: center;
 }
+body{
+  overflow-y: hidden;
+  }

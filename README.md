@@ -47,7 +47,7 @@ This is a fully responsive website that was designed with a mobile-first approac
 ## Score Display
 
 - As a first-time user, you'll want to know that the Memory Game is designed to provide real-time feedback on your progress. Upon successfully matching all pairs in the game, the system will display a celebratory "YOU WON" message. Additionally, the total number of moves you made throughout the game will be updated and presented in real-time. This feature not only acknowledges your achievement but also keeps you informed about your performance, creating an engaging and rewarding experience. It's a way to celebrate your success while offering a transparent view of your gameplay metrics.
-  <img src="assets/images/pp4.png">
+  <img src="assets/images/8new.png">
 
 ## Testing
 

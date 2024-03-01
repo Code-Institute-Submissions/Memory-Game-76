@@ -192,6 +192,6 @@ The images used for the gallery page were taken from this other open source site
 
 ## Acknowledgments
 
-Thank you for visiting the Memory Game website. Explore the game and embark on a sharpening your memory with us!
+Thank you for visiting the Memory Game website. Explore the game and embark on sharpening your memory with us!
 
 I would like to thank code intitute support and Jonathan_Zakrisson_Alumnus my fellow student for the support and guidance throughout the project and my other fellow student on slack for their support & feedback.

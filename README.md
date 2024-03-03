@@ -11,7 +11,7 @@ The core feature of the website is the memory game itself, a thoughtfully crafte
 In addition to its entertainment value, the website fosters a sense of achievement through scoring mechanisms and level progression. Users, regardless of age, can track their performance, encouraging friendly competition or personal improvement goals.
 Moreover, Memory Game incorporates responsive design elements, making it accessible across various devices, including desktops, tablets, and smartphones. This adaptability ensures that users can enjoy the game seamlessly, regardless of their preferred device.
 
-<img src="assets/images/tim.jpg">
+<img src="assets/images/12.webp">
 
 # Features
 

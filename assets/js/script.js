@@ -90,7 +90,7 @@ const generateMatrix = (cardValuesArray, size = 4) => {
                   */
     gameContainerElement.innerHTML += `
      <div class="card-container" data-card-value="${cardValuesArray[i].name}">
-        <div class="card-before">🤔</div>
+       
         <div class="card-after">
         <img src="assets/images/${cardValuesArray[i].image}" class="image"/></div>
      </div>

@@ -346,4 +346,3 @@ render = () => {
 
   console.log(confetti);
 };
-

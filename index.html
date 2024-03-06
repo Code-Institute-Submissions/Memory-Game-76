@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Memory Game</title>
   <!-- Google Fonts -->
@@ -10,6 +11,7 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
   <h1 class="heading">Memory Game</h1>
   <p class="description">
@@ -17,26 +19,26 @@
     consecutive matches, reach a win count of 8 matching cards to win. On
     victory, results will display on screen with total moves. <br>To start a
     new game, click the "Start" button.
-    
-  <div class="wrapper">
-    <div class="stats-container">
-      <div id="moves-count"></div>
-      <div id="time"></div>
-      <div id="card-match-count">
-        <span>Cards Matched:</span> <span id="total-count">0</span>
-      </div>
-    </div>
-    <div class="game-container"></div>
-    <button id="stop" class="hide">Stop Game</button>
-  </div>
 
-  <div class="controls-container">
-    <p id="result"></p>
-    <button id="start">Start Game</button>
-  </div>
-  <canvas id="canvas"></canvas>
-  <!-- Script -->
-  <script src="assets/js/script.js"></script>
+    <div class="wrapper">
+      <div class="stats-container">
+        <div id="moves-count"></div>
+        <div id="time"></div>
+        <div id="card-match-count">
+          <span>Cards Matched:</span> <span id="total-count">0</span>
+        </div>
+      </div>
+      <div class="game-container"></div>
+      <button id="stop" class="hide">Stop Game</button>
+    </div>
+
+    <div class="controls-container">
+      <p id="result"></p>
+      <button id="start">Start Game</button>
+    </div>
+    <canvas id="canvas"></canvas>
+    <!-- Script -->
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

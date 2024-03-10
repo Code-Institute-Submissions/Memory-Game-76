@@ -192,6 +192,11 @@ The images used for the gallery page were taken from this other open source site
 
 ## Acknowledgments
 
+I would like to express my sincere gratitude to the original author of the tutorial on creating a Memory Game using JavaScript, which served as the foundation for this project. The invaluable insights and guidance provided by [Author's Name] on their tutorial at Link to the original tutorial were instrumental in shaping and enhancing my understanding of JavaScript programming.
+
+I extend my appreciation to [Author's Name] for sharing their expertise and making the world of web development more accessible. This modified version of the tutorial incorporates personal adaptations and enhancements, guided by the comprehensive teachings of the original tutorial.
+
+Thank you once again to [Author's Name] for the commitment to knowledge-sharing and fostering a community of learning in the realm of web development.
 Thank you for visiting the Memory Game website. Explore the game and embark on sharpening your memory with us!
 
 I would like to thank code intitute support and Jonathan_Zakrisson_Alumnus my fellow student for the support and guidance throughout the project and my other fellow student on slack for their support & feedback.

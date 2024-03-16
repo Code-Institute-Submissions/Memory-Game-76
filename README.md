@@ -180,6 +180,9 @@ The following websites/articles were used for research and guidance:
 - [Image grid](https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/)
 - [Visually hidden elements](https://www.w3.org/WAI/tutorials/forms/labels/)
 
+#### Issues with code
+Most of the daily problems were solved thanks to [Stackoverflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/).
+
 ## media
 
 The below websites were used for the content:

@@ -202,4 +202,5 @@ I extend my appreciation to [Coding Artist] for sharing their expertise and maki
 Thank you once again to [Code Institute] for the commitment to knowledge-sharing and fostering a community of learning in the realm of web development.
 Thank you for visiting the Memory Game website. Explore the game and embark on sharpening your memory with us!
 
+This modified game features sound effects, congratulations animations, and timers, enhancing the gaming experience.
 I would like to thank code intitute support and Jonathan_Zakrisson_Alumnus my fellow student for the support and guidance throughout the project and my other fellow student on slack for their support & feedback.

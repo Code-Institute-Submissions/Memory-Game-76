@@ -17,8 +17,9 @@
   <h1 class="heading">Memory Game</h1>
   <p class="description">
     Click once on each card to match pairs, increment win count by 1 for
-    consecutive matches, reach a win count of 8 matching cards to win. On
-    victory, results will display on screen with total moves. <br>To start a
+    consecutive matches, reach a win count of 8 matching cards in 1 minute to win. On
+    victory, results will display on screen with total moves. On defeat, results will
+    display on screen with total cards Matched <br>To start a
     new game, click the "Start" button.
 
     <div class="wrapper">
@@ -38,6 +39,10 @@
       <button id="start">Start Game</button>
     </div>
     <canvas id="canvas"></canvas>
+    <audio id="congrats-sound" src="./assets/images/congrats.mp3" preload="auto"></audio>
+    <audio id="congrats-sound1" src="./assets/images/audio2.mp3" preload="auto"></audio>
+    <audio id="loss-sound" src="./assets/images/loss.mp3" preload="auto"></audio>
+
     <!-- Script -->
     <script src="assets/js/script.js"></script>
 </body>

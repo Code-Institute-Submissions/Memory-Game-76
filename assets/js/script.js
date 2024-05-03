@@ -8,6 +8,10 @@ const controlsContainerElement = document.querySelector(".controls-container");
 const cardCountElement = document.querySelector("#total-count");
 const headingElement = document.querySelector(".heading");
 const descriptionElement = document.querySelector(".description");
+const congratsSound = document.getElementById('congrats-sound');
+const congratsSound1 = document.getElementById('congrats-sound1');
+const lossSound = document.getElementById('loss-sound');
+
 let cardElements;
 let intervalId;
 let firstCardElement = false;
@@ -17,8 +21,7 @@ let confettiTriggered = false;
 let animationID;
 let canClickFlag = true;
 let cardMatchCounter = 0;
-let secondsCount = 0,
-  minutesCount = 0;
+
 let movesCounterValue = 0,
   winCounterValue = 0;
 
@@ -38,18 +41,30 @@ const itemsArray = [
   { name: "cherries", image: "cherries.png" },
 ];
 
+let secondsCount = 50,
+    minutesCount = 0;
 //For timer
-const timeUpdater = () => {
-  secondsCount += 1;
+const timeUpdater = () => { 
+  if (minutesCount == 0 && secondsCount ==0) {
+    minutesCount = 1
+  }
+  secondsCount -= 1;
+  
   //minutes logic
-  if (secondsCount >= 60) {
-    minutesCount += 1;
-    secondsCount = 0;
+  if (secondsCount < 1) {
+    secondsCount = 50;
+    minutesCount -= 1;
   }
   //format time before displaying
   let secondsValue = secondsCount < 10 ? `0${secondsCount}` : secondsCount;
   let minutesValue = minutesCount < 10 ? `0${minutesCount}` : minutesCount;
   timeDisplayElement.innerHTML = `<span>Time:</span>${minutesValue}:${secondsValue}`;
+ 
+  if(minutesCount < 0) {
+    lossSound.play();
+    resultElement.innerHTML = `<h2>You Lose</h2><h4>Cards Matched: ${cardMatchCounter}</h4>`;
+    stopGameFunction(); // Stop the game 
+    }
 };
 
 //For calculating moves
@@ -127,6 +142,7 @@ const generateMatrix = (cardValuesArray, size = 4) => {
             // If both cards match, add matched class so these cards would be ignored next time
             firstCardElement.classList.add("matched");
             secondCardElement.classList.add("matched");
+            congratsSound.play();
 
             // Card Match Count
 
@@ -154,10 +170,13 @@ const generateMatrix = (cardValuesArray, size = 4) => {
                 // Set the flag to true to indicate confetti animation has been triggered
                 confettiTriggered = true;
               }
+              congratsSound1.play();
 
               // Display win message and handle other win-related logic
+              if (minutesCount >= 0 ){
               resultElement.innerHTML = `<h2>You Won</h2><h4>Moves: ${movesCounterValue}</h4>`;
-              stopGameFunction(); // Stop the game
+              stopGameFunction(); // Stop the game 
+              }
             }
           } else {
             // If the cards don't match

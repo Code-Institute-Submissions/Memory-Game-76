@@ -41,7 +41,7 @@ const itemsArray = [
   { name: "cherries", image: "cherries.png" },
 ];
 
-let secondsCount = 50,
+let secondsCount = 59,
     minutesCount = 0;
 //For timer
 const timeUpdater = () => { 
@@ -52,7 +52,7 @@ const timeUpdater = () => {
   
   //minutes logic
   if (secondsCount < 1) {
-    secondsCount = 50;
+    secondsCount = 59;
     minutesCount -= 1;
   }
   //format time before displaying
